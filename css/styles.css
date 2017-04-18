@@ -68,62 +68,6 @@
   .home-link {
     font-weight: bold;
   }
-
-  .message {
-    position: relative;
-    padding: 0 5rem;
-    margin-bottom: 3rem;
-    width: auto;
-  }
-  .message .twitter-link {
-    float: left;
-    margin-right: 20px;
-  }
-
-  .message .twitter-link img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .message .text {
-    float: left;
-  }
-
-  .message:after, .website-nav:after {
-    content: " ";
-    display: table;
-    clear: both;
-  }
-  .graphics {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-bottom: 0;
-  }
-  .graphics .tower svg {
-    width: calc(100vw);
-    height: calc(90vh);
-  }
-
-  .graphics .cloud {
-    top: 30rem;
-    position: relative;
-
-  }
-  .page-content {
-    padding: 1rem 5rem;
-  }
-
-  .page-content p {
-    margin-bottom: 1rem;
-  }
-
-  .path {
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation: dash 5s linear forwards;
-  }
   @keyframes dash {
     to {
       stroke-dashoffset: 0;
@@ -131,7 +75,7 @@
   }
 
   @media (min-height: 500px) and (min-width: 700px) {
-    .message {
+/*    .message {
       padding: 0;
       width: 50%;
       left: calc(50vw - 5rem);
@@ -150,11 +94,11 @@
     }
     .page-content {
       padding: 3rem 5rem;
-    }
+    }*/
   }
 
   @media (min-height: 500px) and (min-width: 1240px) {
-    .message {
+/*    .message {
       left: calc(50vw - 10rem);
       top: calc(25vh - 5rem);
     }
@@ -164,13 +108,11 @@
     .message .twitter-link img {
       width: 80%;
       height: 80%;
-    }
+    }*/
   }
 
   @media (min-aspect-ratio: 11/5)  {
-    .graphics {
-      display: none;
-    }
+
   }
 
   .html-videoplayer {
@@ -179,9 +121,6 @@
   }
 
   .html-videoplayer video {
-    /*margin: auto 0;*/
-    /*width:90px;*/
-    height:auto;
   }
 
   .game_logo {
@@ -189,5 +128,11 @@
     -ms-transform: rotate(5deg); /* IE 9 */
     -webkit-transform: rotate(5deg); /* Safari */
     transform: rotate(5deg);
+  }
+
+  .game_logo_wrapper {
+    margin-top:4;
+    margin-left:auto;
+    margin-right:auto;
 
   }
