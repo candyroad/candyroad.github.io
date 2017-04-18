@@ -31,39 +31,38 @@
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -7rem;
+    margin: 0 auto -3rem;
     position: relative;
   }
-  footer, .push {
-    height: 7rem;
-  }
+/*  footer, .push {
+    height: 3rem;
+  }*/
 
   footer .footer-contents {
-    padding: 0 5rem;
+    float:left;
+    padding: 0 3rem;
     position: relative;
   }
 
   .website-nav {
-    text-align: right;
-    position: relative;
+    margin: auto;
+    float:right;
+    /*text-align: right;*/
+    /*position: relative;*/
     padding: 3rem;
   }
 
-  .website-nav ul {
+/*  .website-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
+  }*/
 
-  .website-nav ul li {
-    float: left;
-    padding: 0.5rem 2rem 0.5rem 0;
-    line-height: 21px;
-  }
-
-  .website-nav ul li a {
-    color: white;
-    text-decoration: none;
+  .website-nav p {
+    /*float: left;*/
+    padding: .8rem 0 .8rem 0;
+    /*line-height: 21px;*/
+    text-align:center;
   }
 
   .home-link {
@@ -99,6 +98,11 @@
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Safari */
     transform: rotate(0deg);
+  }
+
+  .ios_download_logo {
+    margin-top: 1.5rem;
+    width: 200px;
   }
 
   .game_logo_wrapper {
