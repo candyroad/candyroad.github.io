@@ -11,7 +11,7 @@
     font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
     font-size: 62.5%;
     color: white;
-    background: linear-gradient(to bottom, #2473ab 0%,#1e528e 70%,#5b7983 100%);
+    background: linear-gradient(to bottom, #5754c7 0%,#66ffcc 100%);
   }
   body {
     font-size: 1.8rem;
@@ -45,7 +45,7 @@
 
   .website-nav {
     position: relative;
-    padding: 5rem;
+    padding: 3rem;
   }
 
   .website-nav ul {
@@ -174,7 +174,20 @@
   }
 
   .html-videoplayer {
-    height:500px;
     background-color:#000;
+    position:absolute;
   }
 
+  .html-videoplayer video {
+    /*margin: auto 0;*/
+    /*width:90px;*/
+    height:auto;
+  }
+
+  .game_logo {
+    height: 100px;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari */
+    transform: rotate(5deg);
+
+  }
