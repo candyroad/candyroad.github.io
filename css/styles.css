@@ -16,6 +16,10 @@
     color: white;
     background: linear-gradient(to bottom, #5754c7 0%,#66ffcc 100%);
   }
+  .privacy_html {
+    background:#5754c7 !important;
+    font-family: komikax, "Helvetica Neue", Roboto, Arial, sans-serif;
+  }
   body {
     font-size: 1.8rem;
   }
@@ -129,7 +133,7 @@
   }
 
   .ios_download_logo {
-    /*margin-top: 1.5rem;*/
+    margin-top: 1.5rem;
     height: 3vw;
     /*text-align:center;*/
     /*margin-left:3rem;*/
