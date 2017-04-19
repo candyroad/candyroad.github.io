@@ -1,13 +1,21 @@
-// var setVideoPosition = function() {
-// 	var video = document.getElementsByTagName("video")[0];
-// 	var width = window.innerWidth;
-// 	var height = window.innerHeight;
-// 	var widthHeightRatio = 1600/1200;
-// 	var vidWidth = height * widthHeightRatio;
-// 	var leftMargin = (width - vidWidth) / 2;
-// 	video.style.marginLeft = JSON.stringify(leftMargin) + "px";
-// 	// setNavPosition(leftMargin);
-// }
+var setVideoPosition = function() {
+	var video = document.getElementsByTagName("video")[0];
+	var width = window.innerWidth;
+	var height = window.innerHeight;
+	var widthHeightRatio = 1600/1200;
+	if(height/width > 1) {
+		video.style.width = "100vw";
+		video.style.height="auto";
+		var vidHeight = width / widthHeightRatio;
+		var topMargin = (height - vidHeight)/2;
+		video.style.marginTop=JSON.stringify(topMargin)+ "px";
+		return;
+	}
+	var vidWidth = height * widthHeightRatio;
+	var leftMargin = (width - vidWidth) / 2;
+	video.style.marginLeft = JSON.stringify(leftMargin) + "px";
+	// setNavPosition(leftMargin);
+}
 
 // var setLogoPosition = function() {
 // 	var gamelogo = document.getElementsByClassName("game_logo_wrapper")[0];
@@ -30,8 +38,8 @@
 // 	var rightMargin = (leftMargin - logoWidth)/2;
 // 	nav.style.marginRight = JSON.stringify(rightMargin) + "px";
 // }
-// // setVideoPosition();
-// // setLogoPosition();
+setVideoPosition();
+// setLogoPosition();
 
 console.log("window.innerHeight:" + window.innerHeight);
 console.log("window.innerWidth:" + window.innerWidth);
