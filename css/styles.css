@@ -1,4 +1,7 @@
-
+  @font-face {
+    font-family: "komikax";
+    src:url("../font/komikax.ttf");
+  }
   * {
     margin: 0;
   }
@@ -8,7 +11,7 @@
   html {
     margin: 0;
     padding: 0;
-    font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
+    font-family: komikax, "Helvetica Neue", Roboto, Arial, sans-serif;
     font-size: 62.5%;
     color: white;
     background: linear-gradient(to bottom, #5754c7 0%,#66ffcc 100%);
@@ -39,13 +42,13 @@
   }*/
 
   footer .footer-contents {
-    float:left;
+    float:right;
     padding: 0 3rem;
     position: relative;
   }
 
   .website-nav {
-    margin: auto;
+    margin: none !important;
     float:right;
     /*text-align: right;*/
     /*position: relative;*/
