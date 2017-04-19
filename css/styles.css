@@ -139,3 +139,11 @@
   .game_logo_wrapper {
     /*position:fixed;*/
   }
+
+  .link_style {
+    color:#C0C0C0;
+  }
+
+  .link_underline {
+    text-decoration:underline !important;
+  }
