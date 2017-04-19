@@ -18,7 +18,6 @@
   }
   .privacy_html {
     background:#5754c7 !important;
-    font-family: komikax, "Helvetica Neue", Roboto, Arial, sans-serif;
   }
   body {
     font-size: 1.8rem;
@@ -102,24 +101,30 @@
   .home-link {
     font-weight: bold;
   }
-  @keyframes dash {
-    to {
-      stroke-dashoffset: 0;
+
+/*  @media (min-height: 500px) and (min-width: 700px) {
+    .html-videoplayer video {
+      width:auto;
+      height:80vh;
     }
   }
 
-  @media (min-height: 500px) and (min-width: 700px) {
-  }
-
   @media (min-height: 500px) and (min-width: 1240px) {
+    .html-videoplayer video {
+      width:auto;
+      height:80vh;
+    }
   }
 
   @media (min-aspect-ratio: 11/5)  {
+    .html-videoplayer video {
+      width:auto;
+      height:80vh;
+    }
+  }*/
 
-  }
 
   .html-videoplayer {
-    /*position:absolute;*/
     float:right;
   }
 
@@ -135,13 +140,6 @@
   .ios_download_logo {
     margin-top: 1.5rem;
     height: 3vw;
-    /*text-align:center;*/
-    /*margin-left:3rem;*/
-
-  }
-
-  .game_logo_wrapper {
-    /*position:fixed;*/
   }
 
   .link_style {
@@ -150,4 +148,56 @@
 
   .link_underline {
     text-decoration:underline !important;
+  }
+
+
+  @media only screen
+  and (min-device-width : 414px)
+  and (max-device-width : 736px) {
+    html {
+      margin: 0;
+      padding: 0;
+      font-family: komikax, "Helvetica Neue", Roboto, Arial, sans-serif;
+      font-size: 62.5%;
+      color: white;
+      /*background:#5754c7;*/
+    background: linear-gradient(to bottom, #5754c7 0%,#66ffcc 100%);
+
+    }
+    .html-videoplayer {
+      /*display:none;*/
+      float: none;
+    }
+
+    .html-videoplayer video {
+      width:100vw;
+      /*height:80vh;*/
+    }
+    .website-nav-secondary li {
+      font-size:4rem;
+    }
+    .website-nav {
+      position:fixed;
+      top:0;
+    }
+    .website-nav p {
+      font-size:2.5rem;
+      margin-top:0;
+      margin-bottom:0;
+      /*margin-left:3rem;*/
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .ios_download_logo {
+      margin-top:0;
+      height: 7vw;
+    }
+    .game_logo {
+      height: 7vw;
+    }
+    .footer-contents {
+      font-size:2.5rem;
+    }
   }
