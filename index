@@ -9,8 +9,8 @@
   <body class="">
     <div class="wrapper">
       <div class="html-videoplayer" muted loop>
-        <video poster="file:///Users/Lina/Google%20Drive/_code/FlappyRoadSite/img/video_static_001.png" muted autoplay loop>
-          <source type="video/mp4" src="file:///Users/Lina/Google%20Drive/_code/FlappyRoadSite/img/background_video.mp4">
+        <video poster="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/video_static_001.png" muted autoplay loop>
+          <source type="video/mp4" src="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/background_video.mp4">
         </video>
       </div muted>
     <!-- <div class="game_logo_wrapper"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></div> -->
