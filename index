@@ -17,6 +17,7 @@
         <p><a href="support">Support</a></p>
         <p><a href="privacy">Privacy</a></p>
         <p><a href="contact">Contact</a></p>
+        <div class="hamburger_menu_wrapper"><img class="hamburger_menu" src="img/hamburger_menu_icon.png"/></div>
       </div>
       <div class="html-videoplayer" muted loop>
         <video poster="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/video_static_001.png" muted autoplay loop>
