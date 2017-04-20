@@ -42,19 +42,25 @@
   }
 
   footer .footer-contents {
-    /*float:left;*/
-    /*margin-top:-1rem;*/
-    /*padding: 0 .5rem;*/
     position: relative;
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 
-  .website-nav {
-    float:left;
+  .website-nav, .website-nav-secondary {
+    position:fixed;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
   }
 
   .website-nav-secondary {
-    position: relative;
     padding: 5rem;
+    background:#1dd0c0 ;
   }
 
   .website-nav-secondary ul {
@@ -67,10 +73,12 @@
     float: left;
     padding: 0.5rem 2rem 0.5rem 0;
     line-height: 21px;
+    font-size:4rem;
   }
 
   .page-content {
     padding: 1rem 5rem;
+    margin-top: 15rem;
   }
 
   .page-content p {
@@ -78,18 +86,19 @@
   }
 
   .website-nav p {
-    /*float: left;*/
     padding: .8rem 0 .8rem 0;
-    /*line-height: 21px;*/
     text-align:center;
+    font-size:3rem;
+    margin-top:0;
+    margin-bottom:0;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .home-link {
     font-weight: bold;
-  }
-
-  .html-videoplayer {
-    float:right;
   }
 
   .html-videoplayer video {
@@ -98,12 +107,12 @@
   }
 
   .game_logo {
-    height: 5vw;
+    height: 5.5vw;
   }
 
   .ios_download_logo {
-    margin-top: 1.5rem;
-    height: 3vw;
+    margin-top:0;
+    height: 5.5vw;
   }
 
   .link_style {
@@ -112,60 +121,4 @@
 
   .link_underline {
     text-decoration:underline !important;
-  }
-
-  @media only screen
-  {
-    html {
-      margin: 0;
-      padding: 0;
-      font-family: komikax, "Helvetica Neue", Roboto, Arial, sans-serif;
-      font-size: 62.5%;
-      color: white;
-    background: linear-gradient(to bottom, #5754c7 0%,#66ffcc 100%);
-
-    }
-    .html-videoplayer {
-      float: none;
-    }
-
-    .website-nav-secondary li {
-      font-size:4rem;
-    }
-    .website-nav, .website-nav-secondary {
-      position:fixed;
-      top:0;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      width: 100%;
-    }
-    .website-nav-secondary{
-      background:#1dd0c0 ;
-    }
-    .page-content {
-      margin-top: 15rem;
-    }
-    .website-nav p {
-      font-size:3rem;
-      margin-top:0;
-      margin-bottom:0;
-      display: table-cell;
-      vertical-align: middle;
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-    .ios_download_logo {
-      margin-top:0;
-      height: 5.5vw;
-    }
-    .game_logo {
-      height: 5.5vw;
-    }
-    .footer-contents {
-      font-size:1.5rem;
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
   }
