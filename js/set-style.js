@@ -11,7 +11,7 @@ var setVideoPosition = function() {
 		video.style.marginTop=JSON.stringify(topMargin)+ "px";
 		return;
 	}
-	var vidWidth = height * widthHeightRatio;
+	var vidWidth = height * widthHeightRatio * .83;
 	var leftMargin = (width - vidWidth) / 2;
 	video.style.marginLeft = JSON.stringify(leftMargin) + "px";
 	// setNavPosition(leftMargin);
