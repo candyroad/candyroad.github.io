@@ -41,7 +41,7 @@ var setVideoPositionTest = function() {
 	// setNavPosition(leftMargin);
 }
 window.onload = function() {
-	setVideoPositionTest();
+	// setVideoPositionTest();
 };
 // var setLogoPosition = function() {
 // 	var gamelogo = document.getElementsByClassName("game_logo_wrapper")[0];

@@ -112,7 +112,6 @@
   }
 
   .ios_download_logo, .android_download_logo {
-    margin-top:0;
     height: 5.5vw;
   }
   .android_download_logo {
@@ -142,4 +141,46 @@
   }
   .hamburger_menu{
     height: 100%;
+  }
+
+  /* portrait devices */
+  @media screen and (max-aspect-ratio: 1/1) {
+    .hamburger_menu_wrapper {
+      display:block;
+    }
+    .website-nav p {
+      display: none;
+    }
+    .html-videoplayer video {
+      width: 100vw;
+      height: auto;
+    }
+    .html-videoplayer {
+      margin-top:10vh;
+      display: block;
+    }
+    .game_logo_wrapper, .hamburger_menu_wrapper {
+      height:6vh;
+    }
+    .game_logo_wrapper {
+      margin-left:4vw;
+    }
+    .website-nav {
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+    }
+    .ios_download_logo, .android_download_logo {
+      height: 8vh;
+      margin-top:4vh;
+    }
+    .app_tagline_wrapper {
+      font-size:2vh;
+      margin-top:4vh;
+      margin-left:10vw;
+      margin-right:10vw;
+    }
+    .footer-contents {
+      margin-top:6vh;
+      font-size:1.5vh;
+    }
   }
