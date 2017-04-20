@@ -40,7 +40,7 @@
   .ios_download_logo_wrapper {
     display:flex;
     justify-content: center;
-    margin-top:3rem;
+    margin-top:5rem;
   }
   .review_comments_wrapper, .app_tagline_wrapper {
     display:flex;
@@ -144,7 +144,7 @@
   }
 
   /* portrait devices */
-  @media screen and (max-aspect-ratio: 1/1) {
+  @media screen and (max-aspect-ratio: 1/1), screen and (max-width: 860px) {
     .hamburger_menu_wrapper {
       display:block;
     }
@@ -152,6 +152,7 @@
       display: none;
     }
     .html-videoplayer video {
+      border-radius:0;
       width: 100vw;
       height: auto;
     }
@@ -171,7 +172,7 @@
     }
     .ios_download_logo, .android_download_logo {
       height: 8vh;
-      margin-top:4vh;
+      margin-top:2vh;
     }
     .app_tagline_wrapper {
       font-size:2vh;
@@ -182,5 +183,8 @@
     .footer-contents {
       margin-top:6vh;
       font-size:1.5vh;
+    }
+    .android_download_logo {
+      margin-left:7vw;
     }
   }
