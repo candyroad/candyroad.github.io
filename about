@@ -9,15 +9,16 @@
 </head>
 <body>
   <div class="wrapper">
-    <header>
+    <!-- <header> -->
       <div class="website-nav">
         <p class="game_logo_wrapper"><a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a></p>
         <p><a href="about">About</a></p>
         <p><a href="support">Support</a></p>
         <p><a href="privacy">Privacy</a></p>
+        <p><a href="contact">Contact</a></p>
         <p class="ios_download_logo_wrapper"><a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a></p>
       </div>
-    </header>
+    <!-- </header> -->
     <section class="page-content">
       <article>
         <h1>About the Game Maker</h1>
@@ -54,7 +55,7 @@
     </section>
   </div>
   <footer>
-    <span class="footer-contents">Roadkill LLC © 2017</span>
+    <span class="footer-contents">ROADKILL LLC © 2017</span>
   </footer>
 </body>
 </html>

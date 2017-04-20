@@ -18,11 +18,12 @@
         <p><a href="about">About</a></p>
         <p><a href="support">Support</a></p>
         <p><a href="privacy">Privacy</a></p>
+        <p><a href="contact">Contact</a></p>
         <p class="ios_download_logo_wrapper"><a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a></p>
       </div>
     </div>
   <footer>
-    <span class="footer-contents">Roadkill LLC © 2017</span>
+    <span class="footer-contents">ROADKILL LLC © 2017</span>
   </footer>
   <script src="js/set-style.js"></script>
 </body>
