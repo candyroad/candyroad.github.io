@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Flappy Road</title>
+  <title>Candy Road</title>
   <meta name="description" content="text/html"/>
   <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -13,21 +13,17 @@
           <source type="video/mp4" src="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/background_video.mp4">
         </video>
       </div muted>
-    <!-- <div class="game_logo_wrapper"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></div> -->
-
       <div class="website-nav">
-        <p class="game_logo_wrapper"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></p>
+        <p class="game_logo_wrapper"><a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a></p>
         <p><a href="about">About</a></p>
         <p><a href="support">Support</a></p>
         <p><a href="privacy">Privacy</a></p>
         <p class="ios_download_logo_wrapper"><a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a></p>
       </div>
     </div>
-
   <footer>
     <span class="footer-contents">Roadkill LLC © 2017</span>
   </footer>
-
   <script src="js/set-style.js"></script>
 </body>
 </html>

@@ -52,14 +52,8 @@
   .website-nav, .website-nav-secondary {
     position:fixed;
     top:0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    float:left;
     width: 100%;
-  }
-
-  .website-nav-secondary {
-    padding: 5rem;
     background:#1dd0c0 ;
   }
 

@@ -2,7 +2,7 @@
 <html lang="en" class="privacy_html">
 <head>
   <meta charset="utf-8">
-  <title>Flappy Road</title>
+  <title>Candy Road</title>
   <meta name="description" content="text/html"/>
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/gradients.css" rel="stylesheet">
@@ -10,26 +10,23 @@
 <body>
   <div class="wrapper">
     <header>
-      <nav class="website-nav-secondary">
-        <ul>
-          <li><a class="home-link" href="index">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="support">Support</a></li>
-          <li><a href="privacy">Privacy</a></li>
-        </ul>
-      </nav>
+      <div class="website-nav">
+        <p class="game_logo_wrapper"><a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a></p>
+        <p><a href="about">About</a></p>
+        <p><a href="support">Support</a></p>
+        <p><a href="privacy">Privacy</a></p>
+        <p class="ios_download_logo_wrapper"><a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a></p>
+      </div>
     </header>
 
     <section class="page-content">
       <article>
         <h1>Contact</h1>
-        <p>Email: <a class="link_underline" href="mailto:support@flappyroad.com">support@flappyroad.com</a></p>
+        <p>Email: <a class="link_underline" href="mailto:support@candyroad.co">support@candyroad.co</a></p>
 
       </article>
     </section>
-    <!-- <div class="push"></div> -->
   </div>
-
   <footer>
     <span class="footer-contents">Roadkill LLC © 2017</span>
   </footer>
