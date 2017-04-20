@@ -18,12 +18,10 @@
         <p class="ios_download_logo_wrapper"><a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a></p>
       </div>
     </header>
-
     <section class="page-content">
       <article>
         <h1>Contact</h1>
         <p>Email: <a class="link_underline" href="mailto:support@candyroad.co">support@candyroad.co</a></p>
-
       </article>
     </section>
   </div>
