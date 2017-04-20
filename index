@@ -9,7 +9,9 @@
   <body class="">
     <div class="wrapper">
       <div class="website-nav">
-        <p class="game_logo_wrapper"><a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a></p>
+        <div class="game_logo_wrapper">
+          <a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a>
+        </div>
         <p><a href="about">About</a></p>
         <p><a href="privacy">Download</a></p>
         <p><a href="support">Support</a></p>

@@ -3,14 +3,14 @@ var setVideoPosition = function() {
 	var width = window.innerWidth;
 	var height = window.innerHeight;
 	var widthHeightRatio = 1600/1200;
-	if(height/width > 1) {
-		video.style.width = "100vw";
-		video.style.height="auto";
-		var vidHeight = width / widthHeightRatio;
-		var topMargin = (height - vidHeight)/2;
-		video.style.marginTop=JSON.stringify(topMargin)+ "px";
-		return;
-	}
+	// if(height/width > 1) {
+	// 	video.style.width = "100vw";
+	// 	video.style.height="auto";
+	// 	var vidHeight = width / widthHeightRatio;
+	// 	var topMargin = (height - vidHeight)/2;
+	// 	// video.style.marginTop=JSON.stringify(topMargin)+ "px";
+	// 	return;
+	// }
 	var vidWidth = height * widthHeightRatio * .83;
 	var leftMargin = (width - vidWidth) / 2;
 	video.style.marginLeft = JSON.stringify(leftMargin) + "px";
