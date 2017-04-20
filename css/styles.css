@@ -90,7 +90,8 @@
   }
 
   .html-videoplayer video {
-    border-radius:20px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
     width:auto;
     height:80vh;
   }
@@ -115,7 +116,7 @@
     height: 5.5vw;
   }
   .android_download_logo {
-    margin-left:7rem;
+    margin-left:10rem;
   }
   .link_style {
     color:#C0C0C0;
