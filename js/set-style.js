@@ -38,7 +38,7 @@ var setVideoPosition = function() {
 // 	var rightMargin = (leftMargin - logoWidth)/2;
 // 	nav.style.marginRight = JSON.stringify(rightMargin) + "px";
 // }
-setVideoPosition();
+// setVideoPosition();
 // setLogoPosition();
 
 console.log("window.innerHeight:" + window.innerHeight);

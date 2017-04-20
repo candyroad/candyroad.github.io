@@ -17,13 +17,33 @@
         <p><a href="support">Support</a></p>
         <p><a href="privacy">Privacy</a></p>
         <p><a href="contact">Contact</a></p>
-        <!-- <p class="ios_download_logo_wrapper"><a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a></p> -->
       </div>
       <div class="html-videoplayer" muted loop>
         <video poster="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/video_static_001.png" muted autoplay loop>
           <source type="video/mp4" src="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/background_video.mp4">
         </video>
       </div muted>
+      <div class="ios_download_logo_wrapper">
+        <a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a><img class="android_download_logo" src="img/playstore-soon.png" />
+        </a>
+      </div>
+      <div class="app_tagline_wrapper">
+      <p>Why do pigs fly?
+      </br>
+      Why do pigs fly across the road?
+      </br>
+      Why do pigs fly across the road AND eat candy?
+      </p>
+      </div>
+<!--       <div class="review_comments_wrapper">
+        <p>"I love making cars explode in Candy Road"</p>
+      </div>
+      <div class="review_comments_wrapper">
+        <p>"That feeling when you catch the character you've always wanted in the claw machine"</p>
+      </div>
+      <div class="review_comments_wrapper">
+        <p>"The character sounds are so funny"</p>
+      </div> -->
     <div class="footer-contents">
       <span class="footer-contents">ROADKILL LLC © 2017</span>
     </div>
