@@ -188,7 +188,7 @@ header {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
       header nav a:hover {
-        color: white; }
+        color: cyan; }
   header.smaller {
     height: 75px; }
     header.smaller h1#logo {
