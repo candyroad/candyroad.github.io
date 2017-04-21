@@ -60,7 +60,7 @@
 
 <div id="main">
 	<div id="content">
-		<section class="reverse_color">
+		<section class="reverse_color video_section">
 				<div class="container_video container">
 					<div class="html-videoplayer" muted loop>
 					  <video poster="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/video_static_001.png" muted autoplay loop>
