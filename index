@@ -6,19 +6,35 @@
   <meta name="description" content="text/html"/>
   <link href="css/styles.css" rel="stylesheet">
 </head>
-  <body class="">
+  <body>
     <div class="wrapper">
-      <div class="website-nav">
+      <!-- <div class="website-nav">
         <div class="game_logo_wrapper">
           <a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a>
         </div>
-        <p><a href="about">About</a></p>
-        <p><a href="privacy">Download</a></p>
-        <p><a href="support">Support</a></p>
-        <p><a href="privacy">Privacy</a></p>
-        <p><a href="contact">Contact</a></p>
+        <div class="website-nav-section">
+          <p><a href="about">About</a></p>
+          <p><a href="privacy">Download</a></p>
+          <p><a href="support">Support</a></p>
+          <p><a href="privacy">Privacy</a></p>
+          <p><a href="contact">Contact</a></p>
+        </div>
         <div class="hamburger_menu_wrapper"><img class="hamburger_menu" src="img/hamburger_menu_icon.png"/></div>
-      </div>
+      </div> -->
+      <header>
+          <div class="container clearfix">
+              <h1 id="logo">
+                <a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a>
+              </h1>
+              <nav>
+                <a href="about">About</a>
+                <a href="privacy">Download</a>
+                <a href="support">Support</a>
+                <a href="privacy">Privacy</a>
+                <a href="contact">Contact</a>
+              </nav>
+          </div>
+      </header><!-- /header -->
       <div class="html-videoplayer" muted loop>
         <video poster="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/video_static_001.png" muted autoplay loop>
           <source type="video/mp4" src="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/background_video.mp4">
