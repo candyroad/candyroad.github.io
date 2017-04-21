@@ -1,174 +1,265 @@
-  @font-face {
-    font-family: "komikax";
-    src:url("../font/komikax.ttf");
+@font-face {
+  font-family: "komikax";
+  src:url("../font/komikax.ttf");
+}
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; }
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a img {
+  border: none; }
+
+/* =Scss Variables
+-------------------------------------------------------------- */
+/* =Global
+-------------------------------------------------------------- */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: #ffff6d; /*#3cb5f9;*/
+  color: #505050;
+  font-family: komikax, "Helvetica Neue", "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.8; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  color: #505050; }
+
+a.link_style {
+  color: cyan;
+}
+
+a:hover {
+  color: yellow; }
+
+/* =Template
+-------------------------------------------------------------- */
+#wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+#main, #main_nonindex {
+  background-color: #5754c7;/* #fff;*/
+  padding-top: 160px; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 30px; }
+.about_container {
+  font-family: "Ubuntu", "Helvetica Neue", Roboto, Arial, sans-serif;
+}
+section {
+  padding: 60px 0; }
+  section h1 {
+    font-weight: 700;
+    margin-bottom: 10px; }
+  section p {
+    margin-bottom: 30px; }
+    section p:last-child {
+      margin-bottom: 0; }
+  section.color {
+    background-color:#ffff6d;
+    color: #505050;
   }
-  * {
-    margin: 0;
-  }
-  html {
-    margin: 0;
-    padding: 0;
-    font-family: komikax, "Helvetica Neue", Roboto, Arial, sans-serif;
-    font-size: 62.5%;
+  section.reverse_color {
+    background-color: #5754c7;
     color: white;
-    background: linear-gradient(to bottom, #5754c7 0%,#66ffcc 100%);
-    min-height:100%;
-  }
-  body {
-    font-size: 1.8rem;
-  }
-  h1, h2, h3 {
-    font-weight: normal;
-  }
-  h1 {
-    font-size: 3.5rem;
-    margin-bottom: 0.5rem;
-  }
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  .footer-contents {
-    position: relative;
-    font-size:1.5rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top:2rem;
-    margin-bottom:1rem;
-  }
-  .ios_download_logo_wrapper {
-    display:flex;
-    justify-content: center;
-    margin-top:5rem;
-  }
-  .review_comments_wrapper, .app_tagline_wrapper {
-    display:flex;
-    margin-top:3rem;
-    margin-left:20vw;
-    margin-right:20vw;
-    text-align: center;
-    justify-content: center;
-  }
-  .app_tagline_wrapper {
-    color:purple;
-    font-size:2rem;
-    line-height:2.3;
-  }
-  .website-nav {
-    position:fixed;
-    top:0;
-    /*float:right;*/
-/*    display: flex;
-    justify-content: right;
-    align-items: center;*/
-    width: 100%;
-    background:#1dd0c0 ;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .page-content {
-    padding: 1rem 5rem;
-    margin-top: 15rem;
   }
 
-  .page-content p {
-    margin-bottom: 1rem;
-  }
-  .website-nav-section {
-    display:flex;
-    justify-content:flex-end;
-  }
-  .website-nav p {
-    /*float:right;*/
-    font-size:2rem;
-/*    margin-top:0;
-    margin-bottom:0;*/
+/* =Info Bar
+-------------------------------------------------------------- */
+#info-bar {
+  background-color: #ffff6d;
+}
+  #info-bar span {
+    color: #505050;
+    /*color: white;*/
+    font-size: 14px;
+    text-transform: uppercase;
     display: inline-block;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
+    margin: 0;
+    padding: 10px; }
+/*    #info-bar a:hover {
+      background-color: #0793e2; }*/
+  #info-bar span.all-tutorials,
+  #info-bar span.back-to-tutorial {
+    display: block;
+    width: 50%; }
+  #info-bar span.all-tutorials {
+    float: left;
+    text-align: left; }
+  #info-bar span.back-to-tutorial {
+    float: right;
+    text-align: right; }
+/* =Header
+-------------------------------------------------------------- */
+header {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #ffff6d;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s; }
+  header h1#logo {
+    display: inline-block;
+    height: 150px;
+    line-height: 150px;
+    float: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: 400;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+  header nav {
+    display: inline-block;
+    float: right; }
+    header nav a {
+      line-height: 150px;
+      margin-left: 20px;
+      /*color: white;*/
+      color: #505050;
+      font-weight: 700;
+      font-size: 16px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+      header nav a:hover {
+        color: white; }
+  header.smaller {
+    height: 75px; }
+    header.smaller h1#logo {
+      /*width: 150px;*/
+      height: 75px;
+      line-height: 75px;
+      font-size: 30px; }
+    header.smaller nav a {
+      line-height: 75px; }
 
-  .html-videoplayer {
-    margin-top:10rem;
-    display:flex;
-    justify-content: center;
-  }
-
-  .html-videoplayer video {
-    /*border-bottom-left-radius: 1em;*/
-    /*border-bottom-right-radius: 1em;*/
-    border-radius:1em;
-    width:auto;
-    height:80vh;
-    /*max-height:400px;*/
-  }
-
-  .game_logo_wrapper {
-    height: 4.5vw;
-    display:inline-block;
-    /*text-align:center;*/
-    vertical-align: middle;
-    margin-left:1rem;
-    margin-right:3rem;
-  }
-
+/* =Footer
+-------------------------------------------------------------- */
+/* =Extras
+-------------------------------------------------------------- */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0; }
+/* =Custom
+-----------------------------------------------------*/
   .game_logo {
     height:100%;
+    padding-top:15px;
+    padding-bottom:15px;
     -ms-transform: rotate(-2deg); /* IE 9 */
     -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
     transform: rotate(-2deg);
   }
-
+  section.video_section {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .html-videoplayer {
+    /*margin-top:10rem;*/
+    display:flex;
+    justify-content: center;
+  }
+  .html-videoplayer video {
+    border-radius:.5em;
+    width:auto;
+    height:76vh;
+  }
+  .container_video {
+    padding: 0 !important;
+  }
+  .ios_download_logo_wrapper {
+    display:flex;
+    justify-content: center;
+    /*margin-top:5rem;*/
+  }
   .ios_download_logo, .android_download_logo {
-    height: 5.5vw;
+    height: 8vw;
   }
   .android_download_logo {
     margin-left:10rem;
   }
-  .link_style {
-    color:#C0C0C0;
-  }
-
-  .link_underline {
-    text-decoration:underline !important;
-  }
-  .privacy-content {
-    font-size:2rem;
-    font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
-    text-align:justify;
-  }
-  /*.hamburger_menu_wrapper {
-    float:right;
-    height: 4.5vw;
-    display:inline-block;
+  .heading_center {
     text-align:center;
-    vertical-align: middle;
-    margin-left:1rem;
-    margin-right:3rem;
+  }
+  .only_display_mobile {
     display:none;
   }
-  .hamburger_menu{
-    height: 100%;
-  }*/
-  /*-------------------------------------------------------*/
-    #wrapper {
-      width: 100%;
-      margin: 0 auto; }
-    .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 30px; }
-  /*-------------------------------------------------------*/
-
-  /* portrait devices */
+  .normal_line_height {
+    line-height:normal;
+    text-align:center;
+  }
+/* =Custom Media Queries -------------------------------------------------------------
+*/
   @media screen and (max-aspect-ratio: 1/1), screen and (max-width: 860px) {
-    .hamburger_menu_wrapper {
-      display:block;
-    }
-    .website-nav p {
-      display: none;
-    }
     .html-videoplayer video {
       border-radius:0;
       width: 100vw;
@@ -178,34 +269,78 @@
       margin-top:10vh;
       display: block;
     }
-    .game_logo_wrapper, .hamburger_menu_wrapper {
-      height:6vh;
+    #main{
+      padding-top:153px;
     }
-    .game_logo_wrapper {
-      margin-left:4vw;
-    }
-    .website-nav {
-      padding-top: 2vh;
-      padding-bottom: 2vh;
+    #main_nonindex {
+      padding-top:220px;
     }
     .ios_download_logo, .android_download_logo {
-      height: 8vh;
+      height: 13vw;
       margin-top:2vh;
-    }
-    .app_tagline_wrapper {
-      font-size:2vh;
-      margin-top:4vh;
-      margin-left:10vw;
-      margin-right:10vw;
-    }
-    .footer-contents {
-      margin-top:6vh;
-      font-size:1.5vh;
     }
     .android_download_logo {
       margin-left:7vw;
     }
-    .website-nav {
-      float:left;
+    section {
+      padding: 40px 0;
+    }
+    section.video_section {
+      /*padding: 0;*/
+      padding-bottom: 0px;
+      line-height: 0;
+    }
+    .only_display_mobile {
+      display:block;
     }
   }
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 1050px) {
+  /* =Header
+  -------------------------------------------------------------- */
+  header {
+    height: 220px;
+  }
+  header h1#logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    text-align: center; }
+  header nav {
+    display: block;
+    float: none;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto; }
+    header nav a {
+      line-height: 50px;
+      margin: 0 10px; }
+  header.smaller {
+    height: 130px; }
+    header.smaller h1#logo {
+      height: 40px;
+      line-height: 40px;
+      font-size: 30px; }
+    header.smaller nav {
+      height: 35px; }
+      header.smaller nav a {
+        line-height: 35px; } }
+@media all and (max-width: 860px) {
+  .container {
+    width: 100%; }
+
+  #info-bar a {
+    display: block; }
+  #info-bar span.all-tutorials,
+  #info-bar span.back-to-tutorial {
+    width: 100%; }
+  #info-bar span.all-tutorials,
+  #info-bar span.back-to-tutorial {
+    float: none;
+    text-align: center; }
+  /*#info-bar span.all-tutorials {
+    border-bottom: solid 1px #0793e2; } */
+}

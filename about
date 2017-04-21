@@ -9,7 +9,7 @@
 <!-- css -->
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/styletest.css" />
+<link rel="stylesheet" href="css/styles.css" />
 <script src="js/scrollbar.js"></script>
 <script>
   function init() {
@@ -38,8 +38,8 @@
       <a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a>
     </h1>
     <nav>
+      <a href="download">Download</a>
       <a href="about">About</a>
-      <a href="privacy">Download</a>
       <a href="support">Support</a>
       <a href="privacy">Privacy</a>
       <a href="contact">Contact</a>

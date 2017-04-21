@@ -9,7 +9,7 @@
 <!-- css -->
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/styletest.css" />
+<link rel="stylesheet" href="css/styles.css" />
 <script src="js/scrollbar.js"></script>
 <script>
   function init() {
@@ -38,8 +38,8 @@
       <a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a>
     </h1>
     <nav>
+      <a href="download">Download</a>
       <a href="about">About</a>
-      <a href="privacy">Download</a>
       <a href="support">Support</a>
       <a href="privacy">Privacy</a>
       <a href="contact">Contact</a>
@@ -126,34 +126,9 @@
                   <p>
                   <a class="link_style" href="mailto:support@candyroad.co">support@candyroad.co</a></p>
                   <p>Privacy Policy last updated April 2017</p>
+        </div>
+    </section>
 
-                  </br>
-        </div>
-    </section>
-    <section class="color">
-        <div class="container">
-          <span class="heading_center"><h1>Download the game!!</h1></span>
-          <p></p>
-          <div class="ios_download_logo_wrapper">
-            <a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a><img class="android_download_logo" src="img/playstore-soon.png" />
-            </a>
-          </div>
-        </div>
-    </section>
-    <section class="reverse_color">
-        <div class="container">
-            <!-- <h1>Chocolate, vanilla, and red velvet</h1> -->
-            <!-- <span class="heading_center"><h1>Download the game!!</h1></span> -->
-
-            <span class="heading_center"><h1>Why do pigs fly?</h1></span>
-            </br>
-            <span class="heading_center"><h1>Why do pigs fly across the road?</h1></span>
-            </br>
-            <span class="heading_center"><h1>Why do pigs fly across the road AND eat candy?</h1></span>
-            <!-- </p> -->
-            <!-- </div> -->
-        </div>
-    </section>
     <!-- <section class="color">
         <div class="container">
             <h1>Come to me!</h1>
