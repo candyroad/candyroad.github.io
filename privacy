@@ -16,6 +16,16 @@
 <link rel="stylesheet" href="css/styles.css" />
 <script src="js/scrollbar.js"></script>
 <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97842950-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
   function init() {
       window.addEventListener('scroll', function(e){
           var distanceY = window.pageYOffset || document.documentElement.scrollTop,
@@ -70,7 +80,7 @@
 
                   <p>When using our app, as appropriate, you may be asked to enter your name, email address or other details to help you with your experience. </p>
 
-                  <p>If you contact us directly for any reason, we may also keep a copy of that correspondence. Your email is collected only to keep you informed of new ROADKILL LLC products and changes to our existing products.</p>
+                  <p>If you contact us directly for any reason, we may also keep a copy of that correspondence. Your email is collected only to keep you informed of new Roadkill products and changes to our existing products.</p>
           </br>
                   <p><u>How do we use your information? </u></p>
 
@@ -78,22 +88,22 @@
                         <p>• To personalize your experience and to allow us to deliver the type of content and product offerings in which you are most interested.</p>
                         <p>• To improve our products in order to better serve you.</p>
                         <p>• To allow us to better service you in responding to your customer service requests.</p>
-                        <p>• To ask for ratings and reviews of services or products</p>
+                        <p>• To ask for ratings and reviews of services or products.</p>
           </br>
                   <p><u>Third-party disclosure</u></p>
 
-                  <p><p>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when it's release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property or safety. </p>
+                  <p><p>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when its release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property or safety. </p>
 
                   <p>However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses. </p>
           </br>
-                  <p><u>Do we use 'cookies'?</u></p>
+                  <!-- <p><u>Do we use 'cookies'?</u></p>
 
-                  <p>We do not use cookies for tracking purposes </p>
+                  <p>We do not use cookies for tracking purposes. </p>
 
                   <p>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser's Help Menu to learn the correct way to modify your cookies.</p>
 
                   <p>If you turn cookies off, Some of the features that make your site experience more efficient may not function properly.</p>
-          </br>
+          </br> -->
                   <p><u>Third Party Advertising</u></p>
                   <p>Advertisements from third party ad networks may be displayed in our Games from time to time. All reasonable endeavours are used to ensure that these ad networks comply with the Act, the US Act, and COPPA in the provision of their services towards us.
                   If you click on any advertisements through Our game, the advertisers may use cookies and other web-tracking technologies to collect data. Some of this may be personal information, and some of it non-personal information. We recommend that you review the terms of use and privacy policy for any advertiser with whom you are interacting before doing so.
@@ -102,14 +112,14 @@
           </br>
                   <p><u>Collection of other 'Non-Personal' Information</u></p>
                   <p>Some non-personal information may be gathered while you use our products. Non-personal information is general, non-identifiable and anonymous information that is gathered for statistical, analytical and research purposes such as the improvement of our games (for example, bug fixes).
-                  Though We do not use cookies in order to track your movement around the web, Our websites (http://www.roadkill.co and http://www.candyroad.co) use Google Analytics to help analyse how users use these sites. The tool uses cookies to collect internet log information and general visitor behaviour information in an anonymous form. The information generated by the cookie about your use of the website, including your IP address, is transmitted to Google. This information is then used to evaluate use of our website and to compile statistical reports on website activity.
+                  Though we do not use cookies in order to track your movement around the web, Our websites (http://www.roadkill.co and http://www.candyroad.co) use Google Analytics to help analyse how users use these sites. The tool uses cookies to collect internet log information and general visitor behaviour information in an anonymous form. The information generated by the cookie about your use of the website, including your IP address, is transmitted to Google. This information is then used to evaluate use of our website and to compile statistical reports on website activity.
                   The Google Analytics privacy policy can be found here: <a class="link_style" href="https://support.google.com/analytics/answer/6004245?hl=en">https://support.google.com/analytics/answer/6004245?hl=en</a>
 
                   </p>
           </br>
                   <p><u>California Online Privacy Protection Act</u></p>
 
-                  <p>CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law's reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared. See more at: http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf</p></p>
+                  <p>CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law's reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared. See more at: <a class="link_style" href="http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf">http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf</a></p></p>
           </br>
                   <p><u>COPPA (Children Online Privacy Protection Act)</u></p>
 
