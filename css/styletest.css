@@ -85,8 +85,8 @@ a:hover {
   margin: 0 auto; }
 
 #main {
-  background-color: #fff;
-  padding-top: 190px; }
+  background-color: #5754c7;/* #fff;*/
+  padding-top: 160px; }
 
 .container {
   width: 80%;
@@ -103,8 +103,14 @@ section {
     section p:last-child {
       margin-bottom: 0; }
   section.color {
-    background-color: #3cb5f9;
+    /*background-color: #3cb5f9;*/
+    background: linear-gradient(to bottom, #66ffcc 0%, #5754c7 100%);
+
     color: white; }
+  section.reverse_color {
+    background: linear-gradient(to bottom, #5754c7 0%,#66ffcc 100%);
+
+  }
 
 /* =Info Bar
 -------------------------------------------------------------- */
@@ -168,7 +174,7 @@ header {
       margin-left: 20px;
       color: white;
       font-weight: 700;
-      font-size: 18px;
+      font-size: 16px;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       -ms-transition: all 0.3s;
@@ -179,7 +185,7 @@ header {
   header.smaller {
     height: 75px; }
     header.smaller h1#logo {
-      width: 150px;
+      /*width: 150px;*/
       height: 75px;
       line-height: 75px;
       font-size: 30px; }
@@ -196,8 +202,8 @@ header {
   content: "";
   clear: both;
   height: 0; }
-/*-----------------------------------------------------*/
-
+/* =Custom
+-----------------------------------------------------*/
   .game_logo {
     height:100%;
     padding-top:15px;
@@ -205,15 +211,41 @@ header {
     -ms-transform: rotate(-2deg); /* IE 9 */
     -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
     transform: rotate(-2deg);
-/*    padding-top: 15px;
-    padding-bottom: 15px;*/
-/*    margin-top:15px;
-    margin-bottom:15px;*/
-
+  }
+  section:first-child {
+    padding: 0;
+    padding-bottom: 60px;
+  }
+  .html-videoplayer {
+    /*margin-top:10rem;*/
+    display:flex;
+    justify-content: center;
+  }
+  .html-videoplayer video {
+    border-radius:.5em;
+    width:auto;
+    height:76vh;
+  }
+  .container_video {
+    padding: 0 !important;
+  }
+  @media screen and (max-aspect-ratio: 1/1), screen and (max-width: 860px) {
+    .html-videoplayer video {
+      border-radius:0;
+      width: 100vw;
+      height: auto;
+    }
+    .html-videoplayer {
+      margin-top:10vh;
+      display: block;
+    }
+    #main{
+      padding-top:153px;
+    }
   }
 /* =Media Queries
 -------------------------------------------------------------- */
-@media all and (max-width: 660px) {
+@media all and (max-width: 1050px) {
   /* =Header
   -------------------------------------------------------------- */
   header {
@@ -245,7 +277,7 @@ header {
       height: 35px; }
       header.smaller nav a {
         line-height: 35px; } }
-@media all and (max-width: 600px) {
+@media all and (max-width: 860px) {
   .container {
     width: 100%; }
 
