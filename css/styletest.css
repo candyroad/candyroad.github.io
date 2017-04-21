@@ -59,7 +59,7 @@ a img {
   box-sizing: border-box; }
 
 body {
-  background-color: #3cb5f9;
+  background-color: #ffff6d; /*#3cb5f9;*/
   color: #505050;
   font-family: komikax, "Helvetica Neue", "Ubuntu", sans-serif;
   font-weight: 300;
@@ -103,28 +103,29 @@ section {
     section p:last-child {
       margin-bottom: 0; }
   section.color {
-    /*background-color: #3cb5f9;*/
-    background: linear-gradient(to bottom, #66ffcc 0%, #5754c7 100%);
-
-    color: white; }
+    background-color:#ffff6d;
+    color: #505050;
+  }
   section.reverse_color {
-    background: linear-gradient(to bottom, #5754c7 0%,#66ffcc 100%);
-
+    background-color: #5754c7;
+    color: white;
   }
 
 /* =Info Bar
 -------------------------------------------------------------- */
 #info-bar {
-  background-color: #3cb5f9; }
-  #info-bar a {
-    color: white;
+  background-color: #ffff6d;
+}
+  #info-bar span {
+    color: #505050;
+    /*color: white;*/
     font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
     margin: 0;
     padding: 10px; }
-    #info-bar a:hover {
-      background-color: #0793e2; }
+/*    #info-bar a:hover {
+      background-color: #0793e2; }*/
   #info-bar span.all-tutorials,
   #info-bar span.back-to-tutorial {
     display: block;
@@ -146,7 +147,7 @@ header {
   top: 0;
   left: 0;
   z-index: 999;
-  background-color: #1dd0c0;
+  background-color: #ffff6d;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   -ms-transition: height 0.3s;
@@ -172,7 +173,8 @@ header {
     header nav a {
       line-height: 150px;
       margin-left: 20px;
-      color: white;
+      /*color: white;*/
+      color: #505050;
       font-weight: 700;
       font-size: 16px;
       -webkit-transition: all 0.3s;
@@ -229,6 +231,22 @@ header {
   .container_video {
     padding: 0 !important;
   }
+  .ios_download_logo_wrapper {
+    display:flex;
+    justify-content: center;
+    /*margin-top:5rem;*/
+  }
+  .ios_download_logo, .android_download_logo {
+    height: 8vw;
+  }
+  .android_download_logo {
+    margin-left:10rem;
+  }
+  .heading_center {
+    text-align:center;
+  }
+/* =Custom Media Queries -------------------------------------------------------------
+*/
   @media screen and (max-aspect-ratio: 1/1), screen and (max-width: 860px) {
     .html-videoplayer video {
       border-radius:0;
@@ -241,6 +259,16 @@ header {
     }
     #main{
       padding-top:153px;
+    }
+    .ios_download_logo, .android_download_logo {
+      height: 13vw;
+      margin-top:2vh;
+    }
+    .android_download_logo {
+      margin-left:7vw;
+    }
+    section {
+      padding: 40px 0;
     }
   }
 /* =Media Queries
@@ -290,5 +318,6 @@ header {
   #info-bar span.back-to-tutorial {
     float: none;
     text-align: center; }
-  #info-bar span.all-tutorials {
-    border-bottom: solid 1px #0793e2; } }
+  /*#info-bar span.all-tutorials {
+    border-bottom: solid 1px #0793e2; } */
+}
