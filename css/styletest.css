@@ -216,7 +216,7 @@ header {
   }
   section:first-child {
     padding: 0;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
   }
   .html-videoplayer {
     /*margin-top:10rem;*/
@@ -269,6 +269,11 @@ header {
     }
     section {
       padding: 40px 0;
+    }
+    section:first-child {
+      /*padding: 0;*/
+      padding-bottom: 0px;
+      line-height: 0;
     }
   }
 /* =Media Queries
