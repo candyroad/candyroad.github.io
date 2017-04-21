@@ -257,6 +257,10 @@ header {
     line-height:normal;
     text-align:center;
   }
+  .error_container {
+    text-align:center;
+    height: 50vh;
+  }
 /* =Custom Media Queries -------------------------------------------------------------
 */
   @media screen and (max-aspect-ratio: 1/1), screen and (max-width: 860px) {
