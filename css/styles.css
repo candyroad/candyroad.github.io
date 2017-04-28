@@ -261,6 +261,9 @@ header {
     text-align:center;
     height: 50vh;
   }
+  #info-bar a:hover {
+    color: #35f5ff;
+  }
 /* =Custom Media Queries -------------------------------------------------------------
 */
   @media screen and (max-aspect-ratio: 1/1), screen and (max-width: 860px) {

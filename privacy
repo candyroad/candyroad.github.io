@@ -64,13 +64,6 @@
   <div id="content">
     <section class="reverse_color">
         <div class="container about_container">
-<!--           <div class="html-videoplayer" muted loop>
-            <video poster="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/video_static_001.png" muted autoplay loop>
-              <source type="video/mp4" src="file:///Users/Lina/Google%20Drive/_code/CandyRoadSite/img/background_video.mp4">
-            </video>
-          </div muted> -->
-<!--           <h1>Contact</h1>
-          <p>Email: <a class="link_style" href="mailto:support@candyroad.co">support@candyroad.co</a></p> -->
                   <h1>Candy Road Privacy Policy</h1>
                   <p>
                   This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
@@ -96,14 +89,6 @@
 
                   <p>However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses. </p>
           </br>
-                  <!-- <p><u>Do we use 'cookies'?</u></p>
-
-                  <p>We do not use cookies for tracking purposes. </p>
-
-                  <p>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser's Help Menu to learn the correct way to modify your cookies.</p>
-
-                  <p>If you turn cookies off, Some of the features that make your site experience more efficient may not function properly.</p>
-          </br> -->
                   <p><u>Third Party Advertising</u></p>
                   <p>Advertisements from third party ad networks may be displayed in our Games from time to time. All reasonable endeavours are used to ensure that these ad networks comply with the Act, the US Act, and COPPA in the provision of their services towards us.
                   If you click on any advertisements through Our game, the advertisers may use cookies and other web-tracking technologies to collect data. Some of this may be personal information, and some of it non-personal information. We recommend that you review the terms of use and privacy policy for any advertiser with whom you are interacting before doing so.
@@ -142,21 +127,6 @@
                   <p>Privacy Policy last updated April 2017</p>
         </div>
     </section>
-
-    <!-- <section class="color">
-        <div class="container">
-            <h1>Come to me!</h1>
-            <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-            <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.</p>
-        </div>
-    </section>
-    <section class="reverse_color">
-        <div class="container">
-            <h1>Sugar rush, oh my...</h1>
-            <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-            <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.</p>
-        </div>
-    </section> -->
   </div>
 </div><!-- #main -->
 
@@ -164,9 +134,8 @@
 <footer>
 <div id="info-bar">
     <div class="container clearfix">
-      <!-- <span class="copyright-contents">ROADKILL LLC © 2017</span> -->
         <span class="all-tutorials">ROADKILL LLC © 2017</a></span>
-        <!-- <span class="back-to-tutorial"><a href="http://www.callmenick.com/tutorials/create-an-animated-resizing-header-on-scroll">back to the tutorial</a></span> -->
+        <span class="back-to-tutorial">back to <a href="http://candyroad.co">candyroad.co</a></span>
     </div>
 </div><!-- /#top-bar -->
 </footer><!-- /footer -->
