@@ -10,12 +10,12 @@
 <!-- favicon -->
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" type="image/png" href="img/favicon_big.png"/>
+<link rel="shortcut icon" type="image/png" href="http://candyroad.co/img/favicon_big.png"/>
 <!-- css -->
 <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/styles.css" />
-<script src="js/scrollbar.js"></script>
+<link rel="stylesheet" href="http://candyroad.co/css/styles.css" />
+<script src="http://candyroad.co/js/scrollbar.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -50,7 +50,7 @@
   <div class="container clearfix">
     <h1 id="logo">
       <!-- LOGO -->
-      <a href="index"><img class="game_logo" src="img/flappy_road_logo_karmatic_arcade_font_002.png" /></a>
+      <a href="index"><img class="game_logo" src="http://candyroad.co/img/flappy_road_logo_karmatic_arcade_font_002.png" /></a>
     </h1>
     <nav>
       <a href="download">Download</a>
@@ -67,7 +67,7 @@
         <div class="container about_container">
           <h1>Contact</h1>
           <p>We'd love to hear from you! Please email: <a class="link_style" href="mailto:support@candyroad.co">support@candyroad.co</a></p>
-          <img class="squishy_web" src="img/bat_web.png" />
+          <img class="squishy_web" src="http://candyroad.co/img/bat_web.png" />
         </div>
     </section>
     <section class="color">
@@ -75,8 +75,8 @@
           <span class="heading_center"><h1>Download the game!!</h1></span>
           <p></p>
           <div class="ios_download_logo_wrapper">
-            <a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a>
-            <a href="https://play.google.com/store/apps/details?id=com.roadkill.candyroad"><img class="android_download_logo" src="img/google_play_002.png" /></a>
+            <a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="http://candyroad.co/img/itunes-app-store-logo.png" /></a>
+            <a href="https://play.google.com/store/apps/details?id=com.roadkill.candyroad"><img class="android_download_logo" src="http://candyroad.co/img/google_play_002.png" /></a>
           </div>
         </div>
     </section>

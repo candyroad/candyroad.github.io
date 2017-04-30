@@ -1,8 +1,8 @@
 @font-face {
   font-family: "komikax";
-  src:url("../font/komikax.ttf");
+  src:url("http://www.candyroad.co/font/komikax.ttf");
 }
-/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/http://candyroad.co/css/reset/index.html
 -------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -233,6 +233,10 @@ header {
     width:auto;
     height:76vh;
   }
+  .placeholder-image {
+    width:auto;
+    height:76vh; 
+  }
   .container_video {
     padding: 0 !important;
   }
@@ -291,6 +295,13 @@ header {
 */
   @media screen and (max-aspect-ratio: 1/1), screen and (max-width: 860px) {
     .html-videoplayer video {
+      border-radius:0;
+      width: 100vw;
+      height: auto;
+    }
+    .html-videoplayer iframe {
+      margin-top:2vh;
+      margin-bottom:2vh;
       border-radius:0;
       width: 100vw;
       height: auto;
