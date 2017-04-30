@@ -70,6 +70,12 @@
             <a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1119010075"><img class="ios_download_logo" src="img/itunes-app-store-logo.png" /></a>
             <a href="https://play.google.com/store/apps/details?id=com.roadkill.candyroad"><img class="android_download_logo" src="img/google_play_002.png" /></a>
           </div>
+          <p></p>
+          <div class="candy_images_wrapper">
+            <img class="candy_images" src="img/candy_002.png"/>
+            <img class="candy_images candy_image_not_first" src="img/candy_003.png"/>
+            <img class="candy_images candy_image_not_first" src="img/candy_004.png"/>
+          </div>
         </div>
     </section>
     <section class="color">
@@ -114,9 +120,6 @@
     </div>
 </div><!-- /#top-bar -->
 </footer><!-- /footer -->
-
-
-
 </div><!-- /#wrapper -->
 
 

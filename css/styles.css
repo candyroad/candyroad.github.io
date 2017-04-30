@@ -259,10 +259,33 @@ header {
   }
   .error_container {
     text-align:center;
-    height: 50vh;
+    /*height: 50vh;*/
   }
   #info-bar a:hover {
     color: #35f5ff;
+  }
+  .squishy_web {
+    height: 20vh;
+  }
+  .waffle_web {
+    height: 10vh;
+  }
+  .candy_images {
+    height: 10vh;
+  }
+  
+  .candy_image_not_first {
+    margin-left: 3vw;
+
+  }
+  .candy_images_wrapper {
+    display: flex;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
   }
 /* =Custom Media Queries -------------------------------------------------------------
 */

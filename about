@@ -66,7 +66,9 @@
         <div class="container about_container">
           <h1>About the Game Maker</h1>
           <p>Candy Road is lovingly made by <a class="link_style" href="http://www.roadkill.co">Roadkill</a>.</p>
+          <img class="waffle_web" src="img/waffle_web.png"/>
           <!-- </br> -->
+          <p></p>
           <h1>About the Candy Road Game</h1>
           <p>
           Go on an epic adventure and flap across the road in this endless arcade flapping game. Flap past more than 180 unique and ruthless vehicles, collect superpowers to DEMOLISH them, and embrace the adrenaline rush of flying through worlds like Mysterious Forest, Hot Desert, Charming Oasis, Bustling City, Winter Wonderland, Fairyland, Candy World, and Donut Kingdom as one of the cute and exotic characters!</p>

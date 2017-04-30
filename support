@@ -66,6 +66,7 @@
         <div class="container about_container">
           <h1>Support</h1>
           <p>We'd love to hear from you! Please email: <a class="link_style" href="mailto:support@candyroad.co">support@candyroad.co</a></p>
+          <img class="squishy_web" src="img/squishy_web_001.png" />
         </div>
     </section>
     <section class="color">
