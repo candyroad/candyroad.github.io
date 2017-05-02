@@ -65,7 +65,7 @@
     <section class="reverse_color">
         <div class="container about_container">
           <h1>About the Game Maker</h1>
-          <p>Candy Road is lovingly made by <a class="link_style" href="http://www.roadkill.co">Roadkill</a>.</p>
+          <p>Candy Road is made by <a class="link_style" href="http://www.roadkill.co">Roadkill</a>.</p>
           <img class="waffle_web" src="http://candyroad.co/img/waffle_web.png"/>
           <!-- </br> -->
           <p></p>
