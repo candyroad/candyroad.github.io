@@ -6,7 +6,6 @@
 <!-- title and meta -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-<!-- <meta name="description" content="stylesheet" /> -->
 <meta name="description" content="text/html"/>
 <meta name="google-site-verification" content="UBJ1DABhU3KSFEOrCxsrM8hjM4xD1tb460HklISms74" />
 <title>Candy Road</title>
@@ -79,11 +78,7 @@
     <section class="reverse_color video_section">
         <div class="container_video container">
           <div class="html-videoplayer" muted loop>
-          <!-- <img class="placeholder-image" src="http://candyroad.co/img/video_static_001.png" /> -->
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Umpb-vxrQDA?autoplay=1&loop=1&VIDEO_ID=Umpb-vxrQDA&modestbranding=1&showinfo=0&rel=0&controls=0" frameborder="0" allowfullscreen></iframe>
-            <!-- <video poster="http://candyroad.co/img/video_static_001.png" muted autoplay loop> -->
-              <!-- <source type="video/mp4" src="http://candyroad.co/img/background_video.mp4"> -->
-            <!-- </video> -->
           </div muted>
         </div>
     </section>
