@@ -250,7 +250,7 @@ header {
     height: 8vw;
   }
   .android_download_logo {
-    margin-left:10rem;
+    margin-left:5rem;
   }
   .heading_center {
     text-align:center;
@@ -342,7 +342,8 @@ header {
   /* =Header
   -------------------------------------------------------------- */
   header {
-    height: 220px;
+    /*height: 220px;*/
+    height: auto;
   }
   header h1#logo {
     display: block;
@@ -385,4 +386,9 @@ header {
     text-align: center; }
   /*#info-bar span.all-tutorials {
     border-bottom: solid 1px #0793e2; } */
+}
+@media all and (max-width: 554px) {
+  header {
+    height: 205px;
+  }
 }
