@@ -28,7 +28,7 @@ var customizeForDevice = function(docLoaded){
 }
 customizeForDevice(false);
 
-window.onload=function() {
+var loaded = function() {
 	alert("loaded")
 	customizeForDevice(true);
 }
