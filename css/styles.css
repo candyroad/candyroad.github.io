@@ -1,6 +1,7 @@
 @font-face {
   font-family: "komikax";
-  src:url("https://candyroad.co/font/komikax.ttf");
+  /*src:url("https://candyroad.co/font/komikax.ttf");*/
+  src:url("../font/komikax.ttf");
 }
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/http://candyroad.co/css/reset/index.html
 -------------------------------------------------------------- */
