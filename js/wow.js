@@ -11,7 +11,9 @@ var customizeForDevice = function(docLoaded){
       window.location.href = "https://play.google.com/store/apps/details?id=com.roadkill.candyroad";
     }
     else if (checker.iphone){
+			alert("iphone not loaded")
 			if(docLoaded) {
+				alert("iphone docloaded")
 				window.location.href = "https://itunes.apple.com/us/app/candy-road-endless-arcade-flapper/id1119010075";
 			}
         // $('.idevice-only').show();
